@@ -1,4 +1,4 @@
-package uruToolsAndArmor;
+package urutoolsandarmor;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -49,7 +49,7 @@ public class UruToolsandArmor {
         public static UruToolsandArmor instance;
         
         // Says where the client and server 'proxy' code is loaded.
-        @SidedProxy(clientSide="uruToolsAndArmor.client.UruClientProxy", serverSide="uruToolsAndArmor.common.UruCommonProxy")
+        @SidedProxy(clientSide="urutoolsandarmor.client.UruClientProxy", serverSide="urutoolsandarmor.common.UruCommonProxy")
         public static UruCommonProxy proxy;
         
         @EventHandler
